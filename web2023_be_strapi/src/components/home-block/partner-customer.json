@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_block_partner_customers",
+  "info": {
+    "displayName": "partner_customer",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "partners": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "customers": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "show": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

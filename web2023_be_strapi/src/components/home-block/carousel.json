@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_block_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

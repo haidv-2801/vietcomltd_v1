@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_block_title_contents",
+  "info": {
+    "displayName": "title_content",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "content": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_block_articles",
+  "info": {
+    "displayName": "articles",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "aritcles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::aritcle.aritcle"
+    }
+  }
+}

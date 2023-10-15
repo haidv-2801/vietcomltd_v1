@@ -1,0 +1,16 @@
+{
+  "collectionName": "block_partner",
+  "info": {
+    "displayName": "Partner",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
+    }
+  }
+}

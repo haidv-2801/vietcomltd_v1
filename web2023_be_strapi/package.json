@@ -1,0 +1,42 @@
+{
+  "name": "web-2023-be-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@amicaldo/strapi-google-maps": "^1.0.4",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@offset-dev/strapi-calendar": "^0.0.10",
+    "@strapi/plugin-color-picker": "^4.11.5",
+    "@strapi/plugin-i18n": "4.11.4",
+    "@strapi/plugin-seo": "^1.9.2",
+    "@strapi/plugin-users-permissions": "4.11.4",
+    "@strapi/strapi": "4.11.4",
+    "mysql": "2.18.1",
+    "react-color": "^2.19.3",
+    "strapi-plugin-content-tags": "^1.0.1",
+    "strapi-plugin-local-image-sharp": "^1.6.0",
+    "strapi-plugin-menus": "^1.4.3",
+    "strapi-plugin-populate-deep": "^3.0.0",
+    "strapi-plugin-sitemap": "^3.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "59a395ab-94bc-4ccf-9245-8509a8eb654c"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

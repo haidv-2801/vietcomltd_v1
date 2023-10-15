@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_home_block_head_small_titles",
+  "info": {
+    "displayName": "HomeBlock",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "head_small_title": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "head_title": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "head_sub_title": {
+      "type": "string",
+      "private": true,
+      "maxLength": 255
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-block.cta",
+      "required": false
+    },
+    "background_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "show": {
+      "type": "boolean",
+      "default": true
+    },
+    "image_position": {
+      "type": "enumeration",
+      "enum": [
+        "Bên trái",
+        "Bên phải"
+      ],
+      "required": true,
+      "default": "Bên phải"
+    }
+  }
+}
